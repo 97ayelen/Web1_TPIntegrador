@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TurismoContacto</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <section>
+        <form action="">
+            <label for="nombre">Nombre/s</label>
+            <input type="text" id="nombre" name="nombre" required maxlength="20">
+
+            <label for="apellido">Apellido/s</label>
+            <input type="text" id="apellido" name="apellido" required maxlength="20">
+
+            <label for="telefono">Telefono</label>
+            <input type="tel" id="telefono" name="telefono" required placeholder="Ej. 2664-123456" pattern="[0-9]{4}-[0-9]{6}" title="Debe ingresar el telefono en siguiente formato: 2664-123456">
+           
+            <label for="mail">Email</label>
+            <input type="email" id="mail" name="mail" required>
+
+            <div>
+            <label for="sexo">Sexo</label>
+            <label for="h">Hombre</label>
+            <input type="radio" id="Hombre" name="sexo" value="Hombre">
+            <label for="m">Mujer</label>
+            <input type="radio" id="Mujer" name="sexo" value="Mujer">
+            </div>
+            
+            <label for="mensaje">Mensaje</label>
+            <input type="text" id="mensaje" name="mensaje" maxlength="300">
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
