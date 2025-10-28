@@ -1,3 +1,7 @@
 .carousel-item {
   display: none;
 }
+
+.contenedorFooter {
+  background-color: greenyellow;
+}
