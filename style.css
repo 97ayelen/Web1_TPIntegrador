@@ -2,6 +2,10 @@
   display: none;
 }
 
-.contenedorFooter {
-  background-color: greenyellow;
+.claseFooter {
+  background-color: palevioletred;
+  text-align: center;
+  color: black;
+  height:auto;
 }
+

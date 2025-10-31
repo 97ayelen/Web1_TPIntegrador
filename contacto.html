@@ -24,20 +24,20 @@
 
     <main>
         <section>
-        <form id="formularioContacto">
+        <form id="formularioContacto" onsubmit="return validarFormulario()">
             <h2>Contactanos...</h2>
             
             <label for="nombre">Nombre/s</label>
-            <input type="text" id="nombre" name="nombre" required maxlength="20">
+            <input type="text" id="nombre" name="nombre">
 
             <label for="apellido">Apellido/s</label>
-            <input type="text" id="apellido" name="apellido" required maxlength="20">
+            <input type="text" id="apellido" name="apellido">
 
             <label for="telefono">Telefono</label>
-            <input type="tel" id="telefono" name="telefono" required placeholder="Ej. 2664-123456" pattern="[0-9]{4}-[0-9]{6}" title="Debe ingresar el telefono en siguiente formato: 2664-123456">
+            <input type="tel" id="telefono" name="telefono">
            
             <label for="mail">Email</label>
-            <input type="email" id="mail" name="mail" required>
+            <input type="email" id="mail" name="mail">
 
             <div>
             <label for="sexo">Sexo</label>
@@ -48,27 +48,26 @@
             </div>
 
             <label for="mensaje">Mensaje</label>
-            <input type="text" id="mensaje" name="mensaje" maxlength="300">
+            <input type="text" id="mensaje" name="mensaje" >
 
             <button type="submit">Enviar</button>
         </form>
     </section>
+    <script src="./javaFormulario.js"></script>
     </main>
 
     <footer class="claseFooter">
          <div class="contenedorFooter">
             <div class="infoFooter">
-            <p>"Cielo Serrano"</p>
-            <p>Direccion: Av. de los Césares 500, Merlo, San Luis, Argentina</p>
-            <p>Telefono: 2665241102</p>
-            <p>Email: cieloserrano@gmail.com</p>
-            <p>Atencion: Todos los dias de 08:00 a 21:00 hs</p>
+            <p> Av. de los Césares 500, Merlo, San Luis, Argentina</p>
+            <p> 2665241102</p>
+            <p> cieloserrano@gmail.com</p>
+            <p> Todos los dias de 08:00 a 21:00 hs</p>
             </div>
             
             <div class="redesFooter">
-                <p>Seguinos en redes sociales:</p>
-                <a href="https://CieloSerranofacebook.com" target="_blank">Facebook</a> |
-                <a href="https://CieloSerranoinstagram.com" target="_blank">Instagram</a>
+                <a href="https://CieloSerranofacebook.com" target="_blank">@CieloSerrano/facebook.com</a> |
+                <a href="https://CieloSerranoinstagram.com" target="_blank">@Cielo_Serrano/instagram.com</a>
             </div>
 
             <div class="derechosFooter">
