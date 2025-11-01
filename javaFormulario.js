@@ -5,24 +5,22 @@ const telefono = document.getElementById('telefono')
 const email = document.getElementById('mail')
 const mensaje = document.getElementById('mensaje')
 
-if(nombre.value === ''){
-    //alert ("el nombre no puede ir vacio");
+if(nombre.value === '' || nombre.value.length > 25){
     nombre.style.borderColor = 'red';
     return false;
 }else{
     nombre.style.borderColor = 'black';
 }
 
-if(apellido.value === ''){
-    //alert ("el nombre no puede ir vacio");
+if(apellido.value === '' || apellido.value.length > 25){
     apellido.style.borderColor = 'red';
     return false;
 }else{
     apellido.style.borderColor = 'black';
 }
 
-if(telefono.value === ''){
-    //alert ("el nombre no puede ir vacio");
+const patronTel = /^\d{15}$/
+if(telefono.value === '' || !patronTel.test(telefono.value)){
     telefono.style.borderColor = 'red';
     return false;
 }else{
