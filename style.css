@@ -3,9 +3,63 @@
 }
 
 .claseFooter {
-  background-color: palevioletred;
+  background-color: rgb(112, 216, 114);
   text-align: center;
   color: black;
   height:auto;
 }
 
+.UbicacionComplejo {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 1px 3px black;
+}
+
+.Carrusel {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+}
+
+.IntroduccionComplejo p {
+   font-size: 15px;
+   padding: 15px;
+}
+
+h1{
+  text-align: center;
+}
+
+.cabecera{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: rgb(112, 216, 114); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nuestrosServvicios {
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px black;
+  text-align: center;
+}
+
+.form{
+  display: flex;
+  flex-direction:column;
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 30px;
+  width: 200px;
+  gap: 15px;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 5px 0px 0px gray;
+
+}
