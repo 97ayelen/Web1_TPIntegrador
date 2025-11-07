@@ -42,6 +42,12 @@ h1{
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.menu li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+
 .nuestrosServicios {
   background-color: white;
   padding: 25px;
