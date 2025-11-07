@@ -119,3 +119,26 @@ body {
   font-size: 15px;
 }
 
+.fotosComplejo{
+  background-color: gainsboro;
+  text-align: center;
+  padding: 40px 0 60px;
+}
+
+.tarjeta {
+  background-color: white;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 0 10px black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cabaña {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 0 40px;
+}
