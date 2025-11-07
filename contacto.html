@@ -24,33 +24,41 @@
 
     <main>
         <section class="form">
-        <form id="formularioContacto" onsubmit="return validarFormulario()">
+        <form id="formularioContacto" onsubmit="">
             <h2>Contactanos...</h2>
-            
-            <label for="nombre">Nombre/s</label>
-            <input type="text" id="nombre" name="nombre">
-
-            <label for="apellido">Apellido/s</label>
-            <input type="text" id="apellido" name="apellido">
-
-            <label for="telefono">Telefono</label>
-            <input type="tel" id="telefono" name="telefono">
-           
-            <label for="mail">Email</label>
-            <input type="email" id="mail" name="mail">
-
-            <div>
-            
-            <label for="h">Hombre</label>
-            <input type="radio" id="Hombre" name="sexo" value="Hombre">
-            <label for="m">Mujer</label>
-            <input type="radio" id="Mujer" name="sexo" value="Mujer">
+            <div class="item">
+                <label for="nombre">Nombre/s</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+            <div class="item">
+                <label for="apellido">Apellido/s</label>
+                <input type="text" id="apellido" name="apellido">
+            </div>
+            <div class="item">
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" name="telefono">
+            </div>
+            <div class="item">
+                <label for="mail">Email</label>            
+                <input type="text" id="mail" name="mail">
+            </div>
+            <!--
+            <div class="item">
+                <label for="sexo">Sexo</label>
+                <label for="h">Hombre</label>
+                <input type="radio" id="Hombre" name="sexo" value="Hombre">
+                <label for="m">Mujer</label>
+                <input type="radio" id="Mujer" name="sexo" value="Mujer">
+            </div>-->
+            <div class="item">
+                <label for="mensaje">Mensaje</label>
+                <input type="text" id="mensaje" name="mensaje" >
             </div>
 
-            <label for="mensaje">Mensaje</label>
-            <input type="text" id="mensaje" name="mensaje" >
 
-            <button class="enviar" type="submit">Enviar</button>
+
+
+            <button type="submit">Enviar</button>
         </form>
     </section>
     <script src="./javaFormulario.js"></script>
