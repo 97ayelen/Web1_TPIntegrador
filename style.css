@@ -83,3 +83,22 @@ main {
   padding: 10px;
 }
 
+.preciosDelComplejo{
+  text-align: center;
+  width: 300px;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 1px 3px black;
+}
+
+.botonReserva {
+  display: block;
+  width: 100px; 
+  margin: 30px auto 0 auto; 
+  padding: 12px;
+  background-color: rgb(50, 175, 50); 
+  color:black;
+  border-radius: 4px;
+  cursor: pointer;
+}
