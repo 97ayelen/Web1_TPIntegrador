@@ -77,7 +77,7 @@ if (errores.length > 0) {
         } else {
             resultado.style.backgroundColor = "#e5ffe5";
             resultado.style.color = "green";
-            resultado.innerHTML = `
+            resultado.innerHTML = ` <br>
                                     <strong>Formulario enviado.</strong><br>
                                     <br>
                         <strong>Nombre completo:</strong> ${nombre.value} ${apellido.value}<br>
